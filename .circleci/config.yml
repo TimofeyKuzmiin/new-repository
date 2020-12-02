@@ -7,5 +7,5 @@ jobs:
     steps:
       - checkout
       - newman/newman-run:
-          collection: ./Comparator 2.postman_collection.json
+          collection: ./ComparatorTWO.postman_collection.json
           environment: ./mnfst.postman_environment.json
